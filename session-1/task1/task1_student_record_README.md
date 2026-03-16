@@ -44,4 +44,4 @@ As you implement each function, test it to ensure it works correctly:
 ## Tips for Working with Structures
 
 * Access structure members using the dot operator (`.`) for structure variables
-* When sorking with string data remember to use the `<string.h>` functions
+* When working with string data remember to use the `<string.h>` functions
