@@ -9,7 +9,7 @@ typedef struct {
 } PGMImage;
 
 /* Function prototypes */
-PGMImage* allocate_image(int, int);
+PGMImage* create_image(int, int, int);
 void free_image(PGMImage*);
 PGMImage* read_pgm_image(const char*);
 void print_image_info(const char*, const PGMImage*);
