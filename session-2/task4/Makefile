@@ -1,4 +1,3 @@
-
 student: student.o main.o
 	gcc student.o main.o -o student
 
@@ -9,5 +8,4 @@ student.o: student.c student.h structure.h
 	gcc -c student.c
 
 clean:
-	rm student.o main.o student
-	
+	rm -f student.o main.o student
